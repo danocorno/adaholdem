@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/mootools-core.js"></script>
+        <script src="js/mootools-more.js"></script>
+        <script src="js/MooNav.js"></script>
+        <script type="text/javascript">
+    var myNav;
+
+	window.addEvent('domready', function() {
+        // Basic, without transition effect and the default class
+        myNav = new MooNav();
+
+        // Custom with slide effect and redefinition of tabs, parts and active class
+        new MooNav({
+            tabsId:			'slide_tabs',
+            partsClass:		'.slide_part',
+            transition:		'slide',
+            activeClass:	'active_bis'
+        });
+    });
+
+	var x = 0;
+	function addTab()
+	{
+		myNav.addTab('New tab ' + x, 'Content ' + x);
+		x++;
+	}
+    </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div>
+            <h1 class="visuallyhidden">ADA Hold 'Em</h1>
+            <img src="img/logo-ada-holdem.jpg" alt="logo for ada hold em" />
+        </div>  
+
+    <ul id="slide_tabs">
+        <li>About</li>
+        <li>When & Where</li>
+        <li>News & Sign Up</li>
+        <li>Get More Chips</li>
+    </ul>
+
+    
+        <div class="slide_part">
+            <h2>About</h2>
+                <p>We operate Texas Hold 'Em tournaments weekly at Austin bars.  The game is free to play, with cash prizes for tournament winners.</p>
+        </div>
+        <div class="slide_part">
+            <h2>Location and Time</h2>
+                <h3>Mondays</h3>
+                    <ul>
+                        <li>Chain Drive (new location)</li>
+                        <li>8:00 P.M. Sign Up, 8:30 P.M. Start</li>
+                    </ul>
+                <h3>Fridays</h3>
+                    <ul>
+                        <li>Oilcan Harry's</li>
+                        <li>6:30 P.M. Sign Up, 7:00 P.M. Start play</li>
+                        <li>Instant cash-jackpots available to the first player each game to get 4-of-a-kind with pocket pairs, or straight flush.  The jackpot rises each week with no winner</li>
+                    </ul>
+        </div>
+        <div class="slide_part">
+            <h2>Announcements, and Event Enrollments</h2>
+                <p>See postings regarding previous winners, incentives, and event registrations.</p>
+                <h3><a href="https://facebook.com/adacasinogames">Facebook</a></h3>
+                <h3>Google+</h3>
+                <h3>Reserve your spot at the table this coming week</h3>
+                    <p><a href="">Monday 12 Jan. at Chain Drive</a></p>
+                    <p><a href="">Friday 16 Jan. at OCH</a></p>
+        </div>
+        <div class="slide_part">
+            <h2>Get More Chips!</h2>
+               <div>
+               <img class="floatright" src="img/poker-cards-chips.jpg" alt="poker cards and chips" width="310" heigth="206" />
+               <p>Play starts with 3000 in chips.  Extra chips can be obtained through various incentives.</p>   
+                <ul>
+                    <li>700 bonus chips for each beverage purchased from the bar</li>
+                    <li>500 bonus chips for reserving a spot at the table via Facebook or Google+ event page</li>
+                    <li>500 bonus chips for bringing a friend who is new to our games, plus the friend gets 500 too</li>
+                    <li>1000 bonus chips during the week of your birthday</li>
+                </ul>
+                </div>
+        </div>
+        <div>
+        &#55356;&#56481;
+&#55356;&#56497;
+&#55356;&#56513;
+&#55356;&#56529;
+&#9828;
+&#9825;
+&#9826;
+&#9831;
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
