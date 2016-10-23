@@ -1072,3 +1072,6 @@ h2{
     text-indent: -2em;
 	margin-top:1em;
 }
+figure{
+	margin:0;
+}
