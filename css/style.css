@@ -1062,6 +1062,10 @@ h2{
   background: -moz-linear-gradient(bottom right,red,orange,yellow,green,blue,indigo,violet);
   /* Standard syntax */
   background: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet); 
-  text-shadow: 1px 1px black;
-  padding:0.5em;
+      text-shadow: 1px 1px black;
+    padding: 0.5em;
+    padding-left: 2.5em;
+    /* margin-left: 4em; */
+    border-radius: 1em;
+    text-indent: -2em;
 }
