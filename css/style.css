@@ -1050,6 +1050,8 @@ nav{
 nav a{
 	background:none;
 	padding:0;
+	width:auto;
+	margin:0;
 }
 
 h2{
