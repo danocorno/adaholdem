@@ -1061,3 +1061,6 @@ figure{
     position: fixed;
     width: 100%;
 }
+#where, #when, #chips, #contact {
+    padding-top: 0.5em;
+}
