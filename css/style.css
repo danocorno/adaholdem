@@ -1057,3 +1057,7 @@ h2{
 figure{
 	margin:0;
 }
+.header-container {
+    position: fixed;
+    width: 100%;
+}
