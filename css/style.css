@@ -1,86 +1,83 @@
 .date {
-font-size:0.9em;
-font-style:italic;
+    font-size: 0.9em;
+    font-style: italic
 }
-
 .standings {
     position: absolute;
-    height: 100%;
+    height: 100%
 }
-
-nav ul li{
-float:left;
-margin-right:1em;
+nav ul li {
+    float: left;
+    margin-right: 1em
 }
-
-.header-container, .footer-container, .main aside {
-    background: #f00;
+.header-container,
+.footer-container,
+.main aside {
+    background: #f00
 }
-
 .header-container {
-    border-bottom: #800;
+    border-bottom: #800
 }
-
-.header-container a{
-    color:#fff;
+.header-container a {
+    color: #fff
 }
-
 .floatleft {
-    float:left;
-    margin:0 1em 1em 0;
+    float: left;
+    margin: 0 1em 1em 0
 }
-
-nav{
-	float:none;
-	width:auto;
+nav {
+    float: none;
+    width: auto
 }
-
-nav a{
-	background:none;
-	padding:0;
-	width:auto;
-	margin:0;
+nav a {
+    background: none;
+    padding: 0;
+    width: auto;
+    margin: 0
 }
-
-h2{
-  background: red; /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  background: -webkit-linear-gradient(left top,red,orange,yellow,green,blue,indigo,violet);
-  /* For Opera 11.1 to 12.0 */
-  background: -o-linear-gradient(bottom right,red,orange,yellow,green,blue,indigo,violet);
-  /* For Fx 3.6 to 15 */
-  background: -moz-linear-gradient(bottom right,red,orange,yellow,green,blue,indigo,violet);
-  /* Standard syntax */
-  background: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet); 
-      text-shadow: 1px 1px black;
+h2 {
+    background: red;
+    background: -webkit-linear-gradient(left top, red, orange, yellow, green, blue, indigo, violet);
+    background: -o-linear-gradient(bottom right, red, orange, yellow, green, blue, indigo, violet);
+    background: -moz-linear-gradient(bottom right, red, orange, yellow, green, blue, indigo, violet);
+    background: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+    text-shadow: 1px 1px black;
     padding: 0.5em;
     padding-left: 2.5em;
-    /* margin-left: 4em; */
     border-radius: 1em;
     text-indent: -2em;
-	margin-top:1em;
+    margin-top: 1em
 }
-
 .header-container {
     position: fixed;
-	bottom:0;
-    width: 100%;
+    bottom: 0;
+    width: 100%
 }
-#where, #when, #chips, #contact {
-    padding-top: 0.5em;
+#where,
+#when,
+#chips,
+#contact {
+    padding-top: 0.5em
 }
-#navlogo{border-radius:20%}
-#navlogo.img-responsive{max-width:80%;}
-
-@media (max-width:991px) {#profile img {
-        display:none;
-    }}
-@media (max-width:1300px) {#profile img {
+#navlogo {
+    border-radius: 20%
+}
+#navlogo.img-responsive {
+    max-width: 80%
+}
+@media (max-width: 991px) {
+    #profile img {
+        display: none
+    }
+}
+@media (max-width: 1300px) {
+    #profile img {
         width: 15em;
-        height: 15em;
-    }}
+        height: 15em
+    }
+}
 #profile img {
-padding:0.5em;
-margin:0 auto;
-border:0.5em ridge rgba(238,238,238,0.2);
+    padding: 0.5em;
+    margin: 0 auto;
+    border: 0.5em ridge rgba(238, 238, 238, 0.2)
 }
