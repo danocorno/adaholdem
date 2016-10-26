@@ -937,41 +937,7 @@ top: -15px;
 width: 55px;
 height: 25px;
 -webkit-transform: rotate(12deg);
--moz-transform: rotate(12deg);
--o-transform: rotate(12deg);
--ms-transform: rotate(12deg);
-}
-.polaroid figcaption{
-text-align:center;
-font-family: 'Just Another Hand', cursive;
-font-size:1.3em;
-color:#454f40;
-letter-spacing:0.09em;
-padding: 0.5em 2em;
-margin: 0 1em 0 0;
-}
 
-/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
-.polaroid figure{
--pie-background: linear-gradient(#ede1c9, #fef8e2 20%, #f2ebde 60%);
-behavior: url(assets/pie/PIE.htc);
-position:relative; /*required to make PIE work*/
-padding-top:10px\9;
-padding-right:10px\9;
-}
-
-.polaroid figure:hover{
-	-webkit-transform: rotate(0deg); 
-	-moz-transform: rotate(0deg);
-        transform: rotate(0deg);
-	-webkit-transform: scale(1.2); 
-	-moz-transform: scale(1.2);
-        transform: scale(1.2);
-	z-index:10;
-	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
-        box-shadow: 0 10px 20px rgba(0,0,0,.7);
-}
 .col-standings {
 float: left;
 }
@@ -1054,9 +1020,7 @@ h2{
     text-indent: -2em;
 	margin-top:1em;
 }
-figure{
-	margin:0;
-}
+
 .header-container {
     position: fixed;
     width: 100%;
