@@ -52,6 +52,7 @@ top: -15px;
 width: 55px;
 height: 25px;
 -webkit-transform: rotate(12deg);
+}
 
 .col-standings {
 float: left;
