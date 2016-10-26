@@ -72,8 +72,9 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <script>        
-var a = getLocation(location);
-document.write(a.hash);
+var parser = document.createElement('a');
+parser.href = location;
+document.write(parser.hash);
 </script>
 <script>document.write(location);</script>
 </body>
