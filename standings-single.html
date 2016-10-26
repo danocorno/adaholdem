@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <title>ADA Hold 'Em | Player Standings - </title>
+    <title>ADA Hold 'Em | Player Standings - <script>document.write(parser.hash);</script></title>
     <meta content=
     "Texas Hold 'Em tournaments weekly at Austin gay bars. The game is free to play, with cash prizes for tournament winners."
     name="description">
@@ -66,17 +66,14 @@
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js">
     </script>
+    <script>var parser = document.createElement('a');parser.href = location;</script>
 </head>
 <body>
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<script>        
-var parser = document.createElement('a');
-parser.href = location;
-document.write(parser.hash);
-</script>
-<script>document.write(location);</script>
+<iframe src="standings/<script>document.write(parser.hash);</script>.html" height="100%" seamless></iframe>
+<iframe></iframe>
 </body>
 </html>
 
