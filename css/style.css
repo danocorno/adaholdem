@@ -1,59 +1,4 @@
 
-.polaroid figure{
-width:100%;
-float:left;
-position:relative;
-margin:0.75em 1.5em;
-padding: 0.375em 0.5em 0.625em 0.5em; 
--webkit-box-shadow: 0.25em 0.25em 0.5em -0.25em rgba(0, 0, 0, .75);
--moz-box-shadow: 0.25em 0.25em 0.5em -0.25em rgba(0, 0, 0, .75);
-box-shadow: -0.25em 0.25em 0.5em -0.25em rgba(0, 0, 0, .75);
-background: #eee6d8;
-background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
--webkit-transform:rotate(-1deg);
--moz-transform: rotate(-1deg);
--o-transform: rotate(-1deg);
--ms-transform: rotate(-1deg);
-transform: rotate(-1deg);
--webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
-}
-.polaroid figure:nth-child(even) {
--webkit-transform:rotate(2deg);
--moz-transform: rotate(2deg);
--o-transform: rotate(2deg);
--ms-transform: rotate(2deg);
-transform: rotate(2deg);
--webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
--webkit-box-shadow: 0.25em 0.25em 0.5em -0.25em rgba(0, 0, 0, .75);
--moz-box-shadow: 0.25em 0.25em 0.5em -0.25em rgba(0, 0, 0, .75);
-box-shadow: -0.25em 0.25em 0.5em -0.25em rgba(0, 0, 0, .75);
-}
-.polaroid figure:before {
-content: '';
-display: block;
-position: absolute;
-left:0.25em;
-top: -1em;
-width: 4.6875em;
-height: 1.5625em;
-background-color: rgba(222,220,198,0.7);
--webkit-transform: rotate(-12deg);
--moz-transform: rotate(-12deg);
--o-transform: rotate(-12deg);
--ms-transform: rotate(-12deg);
-}
-.polaroid figure:nth-child(even):before {
-left:150px;
-top: -15px;
-width: 55px;
-height: 25px;
--webkit-transform: rotate(12deg);
-}
-
 .col-standings {
 float: left;
 }
@@ -139,6 +84,7 @@ h2{
 
 .header-container {
     position: fixed;
+	bottom:0;
     width: 100%;
 }
 #where, #when, #chips, #contact {
