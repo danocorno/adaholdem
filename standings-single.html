@@ -108,7 +108,13 @@ parser.search;   // => "?search=test"
 parser.hash;     // => "#hash"
 parser.host;     // => "example.com:3000"
     </script>
-<script>document.write(parser.hash);</script>
+ <script>   
+    var url = document.createElement('a');
+url.href = location;
+
+ // site.com
+    </scirpt>
+<script>document.write(console.log(url.hash));</script>
 </body>
 </html>
 
