@@ -90,3 +90,18 @@ h2{
 #where, #when, #chips, #contact {
     padding-top: 0.5em;
 }
+#navlogo{border-radius:20%}
+#navlogo.img-responsive{max-width:80%;}
+
+@media (max-width:991px) {#profile img {
+        display:none;
+    }}
+@media (max-width:1300px) {#profile img {
+        width: 15em;
+        height: 15em;
+    }}
+#profile img {
+padding:0.5em;
+margin:0 auto;
+border:0.5em ridge rgba(238,238,238,0.2);
+}
