@@ -1,36 +1,10 @@
-
-.col-standings {
-float: left;
-}
 .date {
 font-size:0.9em;
 font-style:italic;
 }
-.standings-venue {
-float: left;
-border-right: solid;
-margin-right: 1em;
-}
-.col-standings div {
-padding:0 1em;
-background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #333333),
-	color-stop(1, #000000)
-);
-background-image: -o-linear-gradient(bottom, #333333 0%, #000000 100%);
-background-image: -moz-linear-gradient(bottom, #333333 0%, #000000 100%);
-background-image: -webkit-linear-gradient(bottom, #333333 0%, #000000 100%);
-background-image: -ms-linear-gradient(bottom, #333333 0%, #000000 100%);
-background-image: linear-gradient(to bottom, #333333 0%, #000000 100%);
-}
 
-.col-standings div:first-child{
-font-weight:900;
-font-varient:small-caps;
-font-size:1.2em;
+.standings {
+	position:absolute;
 }
 
 nav ul li{
