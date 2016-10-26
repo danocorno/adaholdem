@@ -72,17 +72,8 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <script>        
-     function getLocation(href) {
-        var location = document.createElement("a");
-        location.href = href;
-        // IE doesn't populate all link properties when setting .href with a relative URL,
-        // however .href will return an absolute URL which then can be used on itself
-        // to populate these additional fields.
-        if (location.host == "") {
-          location.href = location.href;
-        }
-        return location;
-    };
+var a = getLocation(location);
+document.write(a.hash);
 </script>
 <script>document.write(location);</script>
 </body>
