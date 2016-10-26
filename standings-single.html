@@ -72,51 +72,19 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <script>        
-  function parseURL(url=location) {
-    var parser = document.createElement('a'),
-        searchObject = {},
-        queries, split, i;
-    // Let the browser do the work
-    parser.href = url;
-    // Convert query string to object
-    queries = parser.search.replace(/^\?/, '').split('&');
-    for( i = 0; i < queries.length; i++ ) {
-        split = queries[i].split('=');
-        searchObject[split[0]] = split[1];
-    }
-    return {
-        protocol: parser.protocol,
-        host: parser.host,
-        hostname: parser.hostname || window.location.hostname,
-        port: parser.port,
-        pathname: parser.pathname,
-        search: parser.search,
-        searchObject: searchObject,
-        hash: parser.hash
+     function getLocation(href) {
+        var location = document.createElement("a");
+        location.href = href;
+        // IE doesn't populate all link properties when setting .href with a relative URL,
+        // however .href will return an absolute URL which then can be used on itself
+        // to populate these additional fields.
+        if (location.host == "") {
+          location.href = location.href;
+        }
+        return location;
     };
-}
 </script>
-    <script>
-    var parser = document.createElement('a');
-parser.href = "http://example.com:3000/pathname/?search=test#hash";
-
-parser.protocol; // => "http:"
-parser.hostname; // => "example.com"
-parser.port;     // => "3000"
-parser.pathname; // => "/pathname/"
-parser.search;   // => "?search=test"
-parser.hash;     // => "#hash"
-parser.host;     // => "example.com:3000"
-    </script>
- <script>   
-    var url = document.createElement('a');
-url.href = location;
-
- // site.com
-    </scirpt>
-    
-        <script>document.write(location);</script>
-<script>document.write(console.log(url.hash));</script>
+<script>document.write(getLocation(href));</script>
 </body>
 </html>
 
