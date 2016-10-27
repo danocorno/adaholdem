@@ -71,15 +71,8 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id="league"></div>
-<script>
-var str = parser.hash;
-var hashed = str.replace("#", "");
-document.getElementById("league").innerHTML = hashed;
-</script>
-
-    <script>document.write("<iframe src=\"standings/"+parser.hash+".html\" height=\"100%\" seamless></iframe>");</script>
-
+<div id="league"></div>
+<script>var str = parser.hash;var hashed = str.replace("#", "");document.getElementById("league").innerHTML = "<iframe src=\"standings/"+hashed+".html\" height=\"100%\" seamless></iframe>";</script>
 </body>
 </html>
 
