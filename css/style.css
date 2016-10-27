@@ -87,10 +87,11 @@ h2 {
 }
 .statsColumnHeader {
     font-weight:900;
-    color:#000;
 }
 .statsColumn {
     padding:0.3em;
     margin-right:1em;
-    color:#000;
+}
+* {
+    color:#fff;
 }
