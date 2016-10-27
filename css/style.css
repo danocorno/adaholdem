@@ -85,3 +85,10 @@ h2 {
     height:100%;
     position:absolute;
 }
+.statsColumnHeader {
+    font-weight:900;
+}
+.statsColumn {
+    padding:0.3em;
+    margin-right:1em;
+}
