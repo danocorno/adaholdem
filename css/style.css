@@ -36,6 +36,7 @@ nav a {
     margin: 0
 }
 h2 {
+    font-family: 'Just Another Hand', cursive;
     background: red;
     background: -webkit-linear-gradient(left top, red, orange, yellow, green, blue, indigo, violet);
     background: -o-linear-gradient(bottom right, red, orange, yellow, green, blue, indigo, violet);
@@ -94,6 +95,7 @@ h2 {
 }
 * {
     color:#fff;
+    font-family: 'Mallanna', sans-serif;
 }
 .polaroid img {
     border: 0;
@@ -101,3 +103,6 @@ h2 {
     height: 100%;
 }
 .fb_iframe_widget{width:100%;}
+
+h1{font-family: 'Lakki Reddy', cursive;}
+
