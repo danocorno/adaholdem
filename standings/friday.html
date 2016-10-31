@@ -1,6 +1,12 @@
- 
-          <h1>Friday League</h1>
-        <div><statsinfo></div>
+ <script>
+    function getLastMod(){
+        var lastModif = new Date(document.lastModified);
+        document.getElementById('LastModified').innerHTML = "...as of:  " + lastModif.toLocaleString();
+    }
+</script>
+
+<h1>Friday League</h1>
+<div id="LastModified"></div>
 <table><tr id="pColumns">
 <td valign="middle" align="right" class="statsColumnHeader">
 #
