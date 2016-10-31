@@ -1,12 +1,22 @@
  <script>
     function getLastMod(){
         var lastModif = new Date(document.lastModified);
-        document.getElementById('LastModified').innerHTML = "...as of:  " + lastModif.toLocaleString();
+        document.getElementById('LastModified').innerHTML = lastModif.toLocaleString();
     }
+</script>
+<script>
+function myFunction() {
+    var d = new Date();
+    var n = d.getDate();
+    var m = d.getMonth();
+    var mm = d.setMonth();
+    var y = d.getFullYear();
+    document.getElementById("demo").innerHTML = n + "-" + mm + "-" + y;
+}
 </script>
 
 <h1>Friday League</h1>
-<div id="LastModified">date <script>getLastMod();</script></div>
+<div id="LastModified"><script>getLastMod();</script></div>
 <table><tr id="pColumns">
 <td valign="middle" align="right" class="statsColumnHeader">
 #
