@@ -18,17 +18,17 @@ Date.prototype.myMet = function() {
     if (this.getMonth() == 11){this.myProp = "December"};
 };
 
-function myFunction() {
+function printDate() {
     var d = new Date(document.lastModified);
     var n = d.getDate();
     var y = d.getFullYear();
     d.myMet();
-    document.getElementById("LastModified").innerHTML = d;
+    document.getElementById("LastModified").innerHTML = n + "-" + d.myProp + "-" + y;
 }
 </script>
 
 <h1>Friday League</h1>
-<div id="LastModified"></div>
+<div id="LastModified"><script>printDate();</script></div>
 <table><tr id="pColumns">
 <td valign="middle" align="right" class="statsColumnHeader">
 #
