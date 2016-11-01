@@ -27,13 +27,13 @@ nav ul li {
 }
 nav {
     float: none;
-    width: auto
+    width: auto;
 }
 nav a {
     background: none;
     padding: 0;
     width: auto;
-    margin: 0
+    margin: 0;
 }
 h2 {
     font-family: 'Just Another Hand', cursive;
@@ -47,40 +47,35 @@ h2 {
     padding-left: 2.5em;
     border-radius: 1em;
     text-indent: -2em;
-    margin-top: 1em
+    margin-top: 1em;
+    display: inline-block;
 }
 .header-container {
     position: fixed;
     bottom: 0;
-    width: 100%
+    width: 100%;
 }
 #where,
 #when,
 #chips,
 #contact {
-    padding-top: 0.5em
+    padding-top: 0.5em;
 }
 #navlogo {
-    border-radius: 20%
+    border-radius: 20%;
 }
 #navlogo.img-responsive {
-    max-width: 80%
+    max-width: 80%;
 }
 @media (max-width: 991px) {
     #profile img {
-        display: none
-    }
-}
-@media (max-width: 1300px) {
-    #profile img {
-        width: 15em;
-        height: 15em
+        display: none;
     }
 }
 #profile img {
     padding: 0.5em;
     margin: 0 auto;
-    border: 0.5em ridge rgba(238, 238, 238, 0.2)
+    border: 0.5em ridge rgba(238, 238, 238, 0.2);
 }
 #league {
     height:100%;
@@ -102,7 +97,9 @@ h2 {
     width: 100%;
     height: 100%;
 }
-.fb_iframe_widget{width:100%;}
-
+.fb_iframe_widget{
+    width:100%;
+    overflow: hidden;
+}
 h1{font-family: 'Lakki Reddy', cursive;}
 
