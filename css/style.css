@@ -114,3 +114,6 @@ iframe{
 .main{
     padding:0;
 }
+tr.odd {
+    background: #333;
+}
