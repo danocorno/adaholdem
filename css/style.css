@@ -84,10 +84,7 @@ h2 {
 .statsColumnHeader {
     font-weight:900;
 }
-.statsColumn {
-    padding:0.3em;
-    margin-right:1em;
-}
+
 * {
     color:#fff;
     font-family: 'Mallanna', sans-serif;
@@ -102,4 +99,6 @@ h2 {
     overflow: hidden;
 }
 h1{font-family: 'Lakki Reddy', cursive;}
-
+td{
+    padding-right: 0.5em;
+}
