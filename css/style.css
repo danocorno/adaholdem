@@ -54,6 +54,8 @@ h2 {
     position: fixed;
     bottom: 0;
     width: 100%;
+    left: 0;
+    padding: 0.5em;
 }
 #where,
 #when,
@@ -105,4 +107,10 @@ td{
 iframe{
     display:inline-block;
     padding:1em;
+}
+.wrapper{
+    margin:1em;
+}
+.main{
+    padding:0;
 }
