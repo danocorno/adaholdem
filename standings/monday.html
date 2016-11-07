@@ -4,22 +4,7 @@
 <link href="../css/style.css" rel="stylesheet" />
 
 <script>
-Date.prototype.myMet1 = function() {
-    if (this.getMonth() == 0){this.myProp1 = "January"};
-    if (this.getMonth() == 1){this.myProp1 = "February"};
-    if (this.getMonth() == 2){this.myProp1 = "March"};
-    if (this.getMonth() == 3){this.myProp1 = "April"};
-    if (this.getMonth() == 4){this.myProp1 = "May"};
-    if (this.getMonth() == 5){this.myProp1 = "June"};
-    if (this.getMonth() == 6){this.myProp1 = "July"};
-    if (this.getMonth() == 7){this.myProp1 = "August"};
-    if (this.getMonth() == 8){this.myProp1 = "Spetember"};
-    if (this.getMonth() == 9){this.myProp1 = "October"};
-    if (this.getMonth() == 10){this.myProp1 = "November"};
-    if (this.getMonth() == 11){this.myProp1 = "December"};
-};
-
-function printDate1() {
+function printDate() {
     var d = new Date();
     var n = d.toLocaleDateString();
     document.getElementById("LastModified").innerHTML = n;
@@ -28,7 +13,7 @@ function printDate1() {
 
 
 <h1>Monday League</h1>
-<div id="LastModified"><script>printDate1();</script></div>
+<div id="LastModified"><script>printDate();</script></div>
 <table>
 <div><statsinfo></div>
 <div><tr id="pColumns">
