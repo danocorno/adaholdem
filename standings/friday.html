@@ -5,7 +5,7 @@
 
 <script>
 function printDate() {
-    var d = document.lastModified;
+    var d = new Date(document.lastModified);
     var n = d.toLocaleDateString();
     document.getElementById("LastModified").innerHTML = n;
 }
