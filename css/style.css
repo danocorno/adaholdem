@@ -105,7 +105,7 @@ h1{font-family: 'Lakki Reddy', cursive;}
 td{
     padding-right: 0.5em;
 }
-iframe{
+.iframe{
     display:inline-block;
     padding:1em;
 }
