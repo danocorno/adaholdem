@@ -109,6 +109,9 @@ td{
     display:inline-block;
     padding:1em;
 }
+.iframe h2{
+    display:block;
+}
 .wrapper{
     margin:1em;
 }
