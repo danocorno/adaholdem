@@ -5,12 +5,11 @@
 
 <script>
 function printDate() {
-    var d = new Date();
+    var d = new Date(document.lastModified);
     var n = d.toLocaleDateString();
     document.getElementById("LastModified").innerHTML = n;
 }
 </script>
-
 
 <h1>Monday League</h1>
 <div id="LastModified"><script>printDate();</script></div>
@@ -38,10 +37,10 @@ Final Tables
 Jeffrey S
 </td>
 <td class="statsColumn" align="right">
-2,042.00
+2,147.00
 </td>
 <td class="statsColumn" align="right">
-8
+9
 </td>
 </tr>
 <tr class="odd">
@@ -63,13 +62,13 @@ Rick Wa
 3
 </td>
 <td class="statsColumn" align="left">
-Charles Le
+Jason Ham
 </td>
 <td class="statsColumn" align="right">
-1,797.00
+1,949.00
 </td>
 <td class="statsColumn" align="right">
-5
+9
 </td>
 </tr>
 <tr class="odd">
@@ -77,13 +76,13 @@ Charles Le
 4
 </td>
 <td class="statsColumn" align="left">
-Richard Po
+Charles Le
 </td>
 <td class="statsColumn" align="right">
-1,653.00
+1,849.00
 </td>
 <td class="statsColumn" align="right">
-7
+5
 </td>
 </tr>
 <tr class="even">
@@ -91,10 +90,10 @@ Richard Po
 5
 </td>
 <td class="statsColumn" align="left">
-Jason Ham
+Richard Po
 </td>
 <td class="statsColumn" align="right">
-1,629.00
+1,783.00
 </td>
 <td class="statsColumn" align="right">
 8
@@ -108,7 +107,7 @@ Jason Ham
 Sean Sha.
 </td>
 <td class="statsColumn" align="right">
-1,503.00
+1,526.00
 </td>
 <td class="statsColumn" align="right">
 7
@@ -122,15 +121,43 @@ Sean Sha.
 Dwayne O
 </td>
 <td class="statsColumn" align="right">
-1,343.00
+1,468.00
 </td>
 <td class="statsColumn" align="right">
-3
+4
 </td>
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
 8
+</td>
+<td class="statsColumn" align="left">
+Joshua Mu
+</td>
+<td class="statsColumn" align="right">
+1,368.00
+</td>
+<td class="statsColumn" align="right">
+8
+</td>
+</tr>
+<tr class="even">
+<td class="statsColumn" align="right">
+9
+</td>
+<td class="statsColumn" align="left">
+Chaz N
+</td>
+<td class="statsColumn" align="right">
+1,295.00
+</td>
+<td class="statsColumn" align="right">
+5
+</td>
+</tr>
+<tr class="odd">
+<td class="statsColumn" align="right">
+10
 </td>
 <td class="statsColumn" align="left">
 Diana Le
@@ -144,44 +171,16 @@ Diana Le
 </tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-9
-</td>
-<td class="statsColumn" align="left">
-Joshua Mu
-</td>
-<td class="statsColumn" align="right">
-1,228.00
-</td>
-<td class="statsColumn" align="right">
-7
-</td>
-</tr>
-<tr class="odd">
-<td class="statsColumn" align="right">
-10
+11
 </td>
 <td class="statsColumn" align="left">
 Derek T
 </td>
 <td class="statsColumn" align="right">
-1,203.00
+1,239.00
 </td>
 <td class="statsColumn" align="right">
 6
-</td>
-</tr>
-<tr class="even">
-<td class="statsColumn" align="right">
-11
-</td>
-<td class="statsColumn" align="left">
-Chaz N
-</td>
-<td class="statsColumn" align="right">
-1,180.00
-</td>
-<td class="statsColumn" align="right">
-4
 </td>
 </tr>
 <tr class="odd">
@@ -203,6 +202,20 @@ Adam Sto.
 13
 </td>
 <td class="statsColumn" align="left">
+John Wh
+</td>
+<td class="statsColumn" align="right">
+1,053.00
+</td>
+<td class="statsColumn" align="right">
+3
+</td>
+</tr>
+<tr class="odd">
+<td class="statsColumn" align="right">
+14
+</td>
+<td class="statsColumn" align="left">
 Joey Tr.
 </td>
 <td class="statsColumn" align="right">
@@ -212,9 +225,23 @@ Joey Tr.
 5
 </td>
 </tr>
+<tr class="even">
+<td class="statsColumn" align="right">
+15
+</td>
+<td class="statsColumn" align="left">
+Paul St
+</td>
+<td class="statsColumn" align="right">
+1,006.00
+</td>
+<td class="statsColumn" align="right">
+3
+</td>
+</tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-14
+16
 </td>
 <td class="statsColumn" align="left">
 Brian A
@@ -228,7 +255,35 @@ Brian A
 </tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-15
+17
+</td>
+<td class="statsColumn" align="left">
+Scott Hi
+</td>
+<td class="statsColumn" align="right">
+993.00
+</td>
+<td class="statsColumn" align="right">
+4
+</td>
+</tr>
+<tr class="odd">
+<td class="statsColumn" align="right">
+18
+</td>
+<td class="statsColumn" align="left">
+Jack No
+</td>
+<td class="statsColumn" align="right">
+961.00
+</td>
+<td class="statsColumn" align="right">
+5
+</td>
+</tr>
+<tr class="even">
+<td class="statsColumn" align="right">
+19
 </td>
 <td class="statsColumn" align="left">
 Greg Th
@@ -242,35 +297,21 @@ Greg Th
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-16
+20
 </td>
 <td class="statsColumn" align="left">
-Paul St
+Dann O
 </td>
 <td class="statsColumn" align="right">
-940.00
+926.00
 </td>
 <td class="statsColumn" align="right">
-3
+1
 </td>
 </tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-17
-</td>
-<td class="statsColumn" align="left">
-John Wh
-</td>
-<td class="statsColumn" align="right">
-935.00
-</td>
-<td class="statsColumn" align="right">
-3
-</td>
-</tr>
-<tr class="odd">
-<td class="statsColumn" align="right">
-18
+21
 </td>
 <td class="statsColumn" align="left">
 Anthony R
@@ -282,37 +323,9 @@ Anthony R
 4
 </td>
 </tr>
-<tr class="even">
-<td class="statsColumn" align="right">
-19
-</td>
-<td class="statsColumn" align="left">
-Jack No
-</td>
-<td class="statsColumn" align="right">
-899.00
-</td>
-<td class="statsColumn" align="right">
-5
-</td>
-</tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-20
-</td>
-<td class="statsColumn" align="left">
-Dann O
-</td>
-<td class="statsColumn" align="right">
-898.00
-</td>
-<td class="statsColumn" align="right">
-1
-</td>
-</tr>
-<tr class="even">
-<td class="statsColumn" align="right">
-21
+22
 </td>
 <td class="statsColumn" align="left">
 Malissa P
@@ -322,20 +335,6 @@ Malissa P
 </td>
 <td class="statsColumn" align="right">
 4
-</td>
-</tr>
-<tr class="odd">
-<td class="statsColumn" align="right">
-22
-</td>
-<td class="statsColumn" align="left">
-Scott Hi
-</td>
-<td class="statsColumn" align="right">
-823.00
-</td>
-<td class="statsColumn" align="right">
-3
 </td>
 </tr>
 <tr class="even">
@@ -374,7 +373,7 @@ Meagan We
 Philip Re
 </td>
 <td class="statsColumn" align="right">
-772.00
+798.00
 </td>
 <td class="statsColumn" align="right">
 1
@@ -388,7 +387,7 @@ Philip Re
 Elaine Ev.
 </td>
 <td class="statsColumn" align="right">
-723.00
+787.00
 </td>
 <td class="statsColumn" align="right">
 2
@@ -397,6 +396,34 @@ Elaine Ev.
 <tr class="even">
 <td class="statsColumn" align="right">
 27
+</td>
+<td class="statsColumn" align="left">
+Darrin W
+</td>
+<td class="statsColumn" align="right">
+721.00
+</td>
+<td class="statsColumn" align="right">
+2
+</td>
+</tr>
+<tr class="odd">
+<td class="statsColumn" align="right">
+28
+</td>
+<td class="statsColumn" align="left">
+Cassandra Pa
+</td>
+<td class="statsColumn" align="right">
+676.00
+</td>
+<td class="statsColumn" align="right">
+2
+</td>
+</tr>
+<tr class="even">
+<td class="statsColumn" align="right">
+29
 </td>
 <td class="statsColumn" align="left">
 Shelly S
@@ -410,21 +437,7 @@ Shelly S
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-28
-</td>
-<td class="statsColumn" align="left">
-Darrin W
-</td>
-<td class="statsColumn" align="right">
-667.00
-</td>
-<td class="statsColumn" align="right">
-2
-</td>
-</tr>
-<tr class="even">
-<td class="statsColumn" align="right">
-29
+30
 </td>
 <td class="statsColumn" align="left">
 James N
@@ -436,9 +449,9 @@ James N
 3
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td class="statsColumn" align="right">
-30
+31
 </td>
 <td class="statsColumn" align="left">
 Dion Fl.
@@ -450,9 +463,9 @@ Dion Fl.
 1
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td class="statsColumn" align="right">
-31
+32
 </td>
 <td class="statsColumn" align="left">
 Shaun Jo
@@ -464,32 +477,18 @@ Shaun Jo
 2
 </td>
 </tr>
-<tr class="odd">
-<td class="statsColumn" align="right">
-32
-</td>
-<td class="statsColumn" align="left">
-Cassandra Pa
-</td>
-<td class="statsColumn" align="right">
-556.00
-</td>
-<td class="statsColumn" align="right">
-1
-</td>
-</tr>
 <tr class="even">
 <td class="statsColumn" align="right">
 33
 </td>
 <td class="statsColumn" align="left">
-Dustin Sp
+Pieter C
 </td>
 <td class="statsColumn" align="right">
-514.00
+555.00
 </td>
 <td class="statsColumn" align="right">
-2
+4
 </td>
 </tr>
 <tr class="odd">
@@ -500,7 +499,7 @@ Dustin Sp
 Jake P
 </td>
 <td class="statsColumn" align="right">
-488.00
+548.00
 </td>
 <td class="statsColumn" align="right">
 1
@@ -511,10 +510,10 @@ Jake P
 35
 </td>
 <td class="statsColumn" align="left">
-Mike Pa
+Dustin Sp
 </td>
 <td class="statsColumn" align="right">
-487.00
+538.00
 </td>
 <td class="statsColumn" align="right">
 2
@@ -528,7 +527,7 @@ Mike Pa
 Scott Ro
 </td>
 <td class="statsColumn" align="right">
-467.00
+537.00
 </td>
 <td class="statsColumn" align="right">
 2
@@ -539,10 +538,10 @@ Scott Ro
 37
 </td>
 <td class="statsColumn" align="left">
-Nathaniel Mov
+Mike Pa
 </td>
 <td class="statsColumn" align="right">
-462.00
+487.00
 </td>
 <td class="statsColumn" align="right">
 2
@@ -553,13 +552,13 @@ Nathaniel Mov
 38
 </td>
 <td class="statsColumn" align="left">
-Pieter C
+Nathaniel Mov
 </td>
 <td class="statsColumn" align="right">
-445.00
+462.00
 </td>
 <td class="statsColumn" align="right">
-3
+2
 </td>
 </tr>
 <tr class="even">
@@ -637,6 +636,20 @@ Michael S
 44
 </td>
 <td class="statsColumn" align="left">
+Daniel Ri
+</td>
+<td class="statsColumn" align="right">
+326.00
+</td>
+<td class="statsColumn" align="right">
+1
+</td>
+</tr>
+<tr class="even">
+<td class="statsColumn" align="right">
+45
+</td>
+<td class="statsColumn" align="left">
 Jared Ha
 </td>
 <td class="statsColumn" align="right">
@@ -646,9 +659,9 @@ Jared Ha
 1
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td class="statsColumn" align="right">
-45
+46
 </td>
 <td class="statsColumn" align="left">
 Shawn M
@@ -660,9 +673,9 @@ Shawn M
 1
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td class="statsColumn" align="right">
-46
+47
 </td>
 <td class="statsColumn" align="left">
 Jessica Wal
@@ -674,9 +687,9 @@ Jessica Wal
 0
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td class="statsColumn" align="right">
-47
+48
 </td>
 <td class="statsColumn" align="left">
 Regal Ar
@@ -688,9 +701,9 @@ Regal Ar
 1
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td class="statsColumn" align="right">
-48
+49
 </td>
 <td class="statsColumn" align="left">
 Joe Het
@@ -702,23 +715,23 @@ Joe Het
 1
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td class="statsColumn" align="right">
-49
+50
 </td>
 <td class="statsColumn" align="left">
-Daniel Ri
+Frank Rh.
 </td>
 <td class="statsColumn" align="right">
 226.00
 </td>
 <td class="statsColumn" align="right">
-0
+1
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td class="statsColumn" align="right">
-50
+51
 </td>
 <td class="statsColumn" align="left">
 David To
@@ -730,9 +743,23 @@ David To
 1
 </td>
 </tr>
+<tr class="odd">
+<td class="statsColumn" align="right">
+52
+</td>
+<td class="statsColumn" align="left">
+Shannon Ca.
+</td>
+<td class="statsColumn" align="right">
+217.00
+</td>
+<td class="statsColumn" align="right">
+1
+</td>
+</tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-51
+53
 </td>
 <td class="statsColumn" align="left">
 Joel G
@@ -746,7 +773,7 @@ Joel G
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-52
+54
 </td>
 <td class="statsColumn" align="left">
 Tyler Sm
@@ -756,34 +783,6 @@ Tyler Sm
 </td>
 <td class="statsColumn" align="right">
 0
-</td>
-</tr>
-<tr class="even">
-<td class="statsColumn" align="right">
-53
-</td>
-<td class="statsColumn" align="left">
-Frank Rh.
-</td>
-<td class="statsColumn" align="right">
-196.00
-</td>
-<td class="statsColumn" align="right">
-1
-</td>
-</tr>
-<tr class="odd">
-<td class="statsColumn" align="right">
-54
-</td>
-<td class="statsColumn" align="left">
-Shannon Ca.
-</td>
-<td class="statsColumn" align="right">
-185.00
-</td>
-<td class="statsColumn" align="right">
-1
 </td>
 </tr>
 <tr class="even">
@@ -889,10 +888,10 @@ James Mcd.
 62
 </td>
 <td class="statsColumn" align="left">
-Garrett Re.
+Jason Har
 </td>
 <td class="statsColumn" align="right">
-118.00
+128.00
 </td>
 <td class="statsColumn" align="right">
 0
@@ -903,13 +902,13 @@ Garrett Re.
 63
 </td>
 <td class="statsColumn" align="left">
-Eugene Me.
+Garrett Re.
 </td>
 <td class="statsColumn" align="right">
-115.00
+118.00
 </td>
 <td class="statsColumn" align="right">
-1
+0
 </td>
 </tr>
 <tr class="odd">
@@ -917,7 +916,7 @@ Eugene Me.
 64
 </td>
 <td class="statsColumn" align="left">
-David He
+Eugene Me.
 </td>
 <td class="statsColumn" align="right">
 115.00
@@ -931,10 +930,10 @@ David He
 65
 </td>
 <td class="statsColumn" align="left">
-Robert G
+David He
 </td>
 <td class="statsColumn" align="right">
-105.00
+115.00
 </td>
 <td class="statsColumn" align="right">
 1
@@ -945,7 +944,7 @@ Robert G
 66
 </td>
 <td class="statsColumn" align="left">
-Chris Vi
+Robert G
 </td>
 <td class="statsColumn" align="right">
 105.00
@@ -959,10 +958,10 @@ Chris Vi
 67
 </td>
 <td class="statsColumn" align="left">
-Oliver All
+Chris Vi
 </td>
 <td class="statsColumn" align="right">
-100.00
+105.00
 </td>
 <td class="statsColumn" align="right">
 1
@@ -973,7 +972,7 @@ Oliver All
 68
 </td>
 <td class="statsColumn" align="left">
-Josh Mar,
+Oliver All
 </td>
 <td class="statsColumn" align="right">
 100.00
@@ -987,7 +986,7 @@ Josh Mar,
 69
 </td>
 <td class="statsColumn" align="left">
-Davy Jo
+Josh Mar,
 </td>
 <td class="statsColumn" align="right">
 100.00
@@ -1001,7 +1000,7 @@ Davy Jo
 70
 </td>
 <td class="statsColumn" align="left">
-Daniel M
+Davy Jo
 </td>
 <td class="statsColumn" align="right">
 100.00
@@ -1015,6 +1014,34 @@ Daniel M
 71
 </td>
 <td class="statsColumn" align="left">
+Daniel M
+</td>
+<td class="statsColumn" align="right">
+100.00
+</td>
+<td class="statsColumn" align="right">
+1
+</td>
+</tr>
+<tr class="odd">
+<td class="statsColumn" align="right">
+72
+</td>
+<td class="statsColumn" align="left">
+Jesse Gug
+</td>
+<td class="statsColumn" align="right">
+96.00
+</td>
+<td class="statsColumn" align="right">
+0
+</td>
+</tr>
+<tr class="even">
+<td class="statsColumn" align="right">
+73
+</td>
+<td class="statsColumn" align="left">
 Nakita S
 </td>
 <td class="statsColumn" align="right">
@@ -1026,7 +1053,7 @@ Nakita S
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-72
+74
 </td>
 <td class="statsColumn" align="left">
 Don Od
@@ -1040,7 +1067,7 @@ Don Od
 </tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-73
+75
 </td>
 <td class="statsColumn" align="left">
 Mic Te
@@ -1054,7 +1081,7 @@ Mic Te
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-74
+76
 </td>
 <td class="statsColumn" align="left">
 Joel Or
@@ -1068,7 +1095,7 @@ Joel Or
 </tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-75
+77
 </td>
 <td class="statsColumn" align="left">
 Douglas S
@@ -1082,7 +1109,7 @@ Douglas S
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-76
+78
 </td>
 <td class="statsColumn" align="left">
 Ashton H
@@ -1096,7 +1123,7 @@ Ashton H
 </tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-77
+79
 </td>
 <td class="statsColumn" align="left">
 Nichole W
@@ -1110,7 +1137,7 @@ Nichole W
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-78
+80
 </td>
 <td class="statsColumn" align="left">
 Kyle La
@@ -1124,21 +1151,7 @@ Kyle La
 </tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-79
-</td>
-<td class="statsColumn" align="left">
-Jason Har
-</td>
-<td class="statsColumn" align="right">
-60.00
-</td>
-<td class="statsColumn" align="right">
-0
-</td>
-</tr>
-<tr class="odd">
-<td class="statsColumn" align="right">
-80
+81
 </td>
 <td class="statsColumn" align="left">
 Eddy Pa.
@@ -1150,9 +1163,9 @@ Eddy Pa.
 0
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td class="statsColumn" align="right">
-81
+82
 </td>
 <td class="statsColumn" align="left">
 Joshua Pa
@@ -1164,9 +1177,9 @@ Joshua Pa
 0
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td class="statsColumn" align="right">
-82
+83
 </td>
 <td class="statsColumn" align="left">
 Kyle G
@@ -1178,9 +1191,23 @@ Kyle G
 0
 </td>
 </tr>
+<tr class="odd">
+<td class="statsColumn" align="right">
+84
+</td>
+<td class="statsColumn" align="left">
+Kel Ca
+</td>
+<td class="statsColumn" align="right">
+56.00
+</td>
+<td class="statsColumn" align="right">
+0
+</td>
+</tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-83
+85
 </td>
 <td class="statsColumn" align="left">
 Marlene Ba.
@@ -1194,7 +1221,7 @@ Marlene Ba.
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-84
+86
 </td>
 <td class="statsColumn" align="left">
 Nick W
@@ -1208,7 +1235,7 @@ Nick W
 </tr>
 <tr class="even">
 <td class="statsColumn" align="right">
-85
+87
 </td>
 <td class="statsColumn" align="left">
 Jayd Mca
@@ -1222,21 +1249,7 @@ Jayd Mca
 </tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-86
-</td>
-<td class="statsColumn" align="left">
-Jesse Gug
-</td>
-<td class="statsColumn" align="right">
-38.00
-</td>
-<td class="statsColumn" align="right">
-0
-</td>
-</tr>
-<tr class="even">
-<td class="statsColumn" align="right">
-87
+88
 </td>
 <td class="statsColumn" align="left">
 John Bro
@@ -1248,9 +1261,37 @@ John Bro
 0
 </td>
 </tr>
+<tr class="even">
+<td class="statsColumn" align="right">
+89
+</td>
+<td class="statsColumn" align="left">
+Ken Kr
+</td>
+<td class="statsColumn" align="right">
+34.00
+</td>
+<td class="statsColumn" align="right">
+0
+</td>
+</tr>
 <tr class="odd">
 <td class="statsColumn" align="right">
-88
+90
+</td>
+<td class="statsColumn" align="left">
+Raymond Gu
+</td>
+<td class="statsColumn" align="right">
+25.00
+</td>
+<td class="statsColumn" align="right">
+0
+</td>
+</tr>
+<tr class="even">
+<td class="statsColumn" align="right">
+91
 </td>
 <td class="statsColumn" align="left">
 Sean Gar
@@ -1262,10 +1303,10 @@ Sean Gar
 0
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td colspan=100>&nbsp;</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td class="statsColumn" align="right">
 Sum:
 </td>
@@ -1273,13 +1314,13 @@ Sum:
 
 </td>
 <td class="statsColumn" align="right">
-44,541.00
+46,962.00
 </td>
 <td class="statsColumn" align="right">
-170
+180
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td class="statsColumn" align="right">
 Avg:
 </td>
@@ -1287,7 +1328,7 @@ Avg:
 
 </td>
 <td class="statsColumn" align="right">
-506.15
+516.07
 </td>
 <td class="statsColumn" align="right">
 
