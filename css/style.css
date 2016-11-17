@@ -111,6 +111,7 @@ td{
 }
 .iframe h2{
     display:block;
+    height:100%;
 }
 .wrapper{
     margin:1em;
