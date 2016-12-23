@@ -74,7 +74,7 @@
     <h2 id="leaguename"></h2>
         <div id="league"></div>
    </body>
-        <script>var capitalized = hashed[0].toUpperCase() + hashed.substr(1);document.getElementById("leaguename").innerHTML = capitalized;</script>       
         <script>var str = parser.hash;var hashed = str.replace("#", "");document.getElementById("league").innerHTML = "<iframe src=\"standings/"+hashed+".html\" height=\"100%\" seamless></iframe>";</script>       
+        <script>var capitalized = hashed[0].toUpperCase() + hashed.substr(1);document.getElementById("leaguename").innerHTML = capitalized;</script>       
    </html>
 
