@@ -125,3 +125,6 @@ tr.odd {
 iframe{
     vertical-align: bottom;
 }
+td {
+    font-size:0.7em;
+}
